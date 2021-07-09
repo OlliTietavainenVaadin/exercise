@@ -1,0 +1,5 @@
+package com.vaadin.training.charts.exercises.ex3;
+
+public class RangeData {
+
+}

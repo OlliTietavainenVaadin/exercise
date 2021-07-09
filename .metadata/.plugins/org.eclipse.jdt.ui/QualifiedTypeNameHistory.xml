@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.vaadin.server.JsonCodec"/>
+    <fullyQualifiedTypeName name="com.vaadin.tests.components.AbstractTestUIWithLog"/>
+    <fullyQualifiedTypeName name="elemental.json.JsonValue"/>
+    <fullyQualifiedTypeName name="com.vaadin.ui.Grid"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.vaadin.shared.communication.URLReference"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.communication.JSONSerializer"/>
+    <fullyQualifiedTypeName name="com.vaadin.util.ReflectTools"/>
+    <fullyQualifiedTypeName name="java.beans.IntrospectionException"/>
+    <fullyQualifiedTypeName name="elemental.json.JsonObject"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.JsonCodec.BeanProperty"/>
+    <fullyQualifiedTypeName name="elemental.json.Json"/>
+    <fullyQualifiedTypeName name="com.vaadin.shared.ui.button.ButtonState"/>
+    <fullyQualifiedTypeName name="com.vaadin.ui.Button"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.BrowserWindowOpener"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.ExternalResource"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.ResourceReference"/>
+    <fullyQualifiedTypeName name="com.vaadin.tests.components.AbstractTestUI"/>
+    <fullyQualifiedTypeName name="com.vaadin.server.VaadinService"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="com.vaadin.tests.tb3.SingleBrowserTest"/>
+    <fullyQualifiedTypeName name="com.vaadin.ui.Notification"/>
+</qualifiedTypeNameHistroy>

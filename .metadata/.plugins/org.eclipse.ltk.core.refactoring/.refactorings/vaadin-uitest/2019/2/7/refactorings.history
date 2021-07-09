@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;vaadin-uitest&apos;&#x0D;&#x0A;- Original project: &apos;vaadin-uitest&apos;&#x0D;&#x0A;- Original element: &apos;com.vaadin.tests.application.CustomJSONSerializerTest.java&apos;" description="Delete element" element1="/src\/test\/java&lt;com.vaadin.tests.application{CustomJSONSerializerTest.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1550150285838" subPackages="false" version="1.0"/>
+</session>

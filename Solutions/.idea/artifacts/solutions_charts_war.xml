@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="solutions-charts:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>solutions-charts</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="solutions-charts-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="solutions-charts:war exploded" />
+    </root>
+  </artifact>
+</component>

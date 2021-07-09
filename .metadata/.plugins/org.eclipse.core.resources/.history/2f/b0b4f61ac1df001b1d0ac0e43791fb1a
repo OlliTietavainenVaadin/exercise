@@ -1,0 +1,27 @@
+package com.vaadin.training.charts.exercises.ex1;
+
+import com.vaadin.navigator.View;
+import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
+import com.vaadin.training.charts.exercises.ChartsData;
+import com.vaadin.ui.Component;
+import com.vaadin.ui.Label;
+import com.vaadin.ui.VerticalLayout;
+
+public class ShoeSizeChart extends VerticalLayout implements View {
+	private static final long serialVersionUID = 1L;
+
+	public ShoeSizeChart() {
+		Component chart = getShoeSizeChart(new ChartsData());
+		addComponent(chart);
+	}
+
+	@Override
+	public void enter(ViewChangeEvent event) {
+		// Navigator method, ignore for now
+	}
+
+	private Component getShoeSizeChart(ChartsData data) {
+        Label label = new Label("Implement a shoe size chart here");
+        return label;
+    }
+}

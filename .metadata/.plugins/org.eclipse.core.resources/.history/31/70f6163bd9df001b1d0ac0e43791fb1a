@@ -1,0 +1,54 @@
+package com.vaadin.training.charts.exercises.ex3;
+
+import com.vaadin.addon.charts.Chart;
+import com.vaadin.addon.charts.model.AxisType;
+import com.vaadin.addon.charts.model.ChartType;
+import com.vaadin.addon.charts.model.Configuration;
+import com.vaadin.addon.charts.model.RangeSeries;
+import com.vaadin.addon.charts.model.YAxis;
+import com.vaadin.navigator.View;
+import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
+import com.vaadin.training.charts.exercises.ChartsData;
+import com.vaadin.ui.VerticalLayout;
+
+public class RangeDataChart extends VerticalLayout implements View {
+
+    private static final long serialVersionUID = 1L;
+
+    public RangeDataChart() {
+            ChartsData chartsData = new ChartsData();
+            Chart chart = getAreaRangeChart(chartsData);
+            addComponents(chart);
+    }
+
+    @Override
+    public void enter(ViewChangeEvent event) {
+            // Navigator method, ignore for now
+    }
+
+    private Chart getAreaRangeChart(ChartsData data) {
+            Chart chart = new Chart(ChartType.AREARANGE);
+
+            Configuration conf = chart.getConfiguration();
+
+            conf.getxAxis().setTitle("Date");
+            conf.getxAxis().setType(AxisType.DATETIME);
+
+            YAxis tempYAxis = new YAxis();
+            tempYAxis.setTitle("Temperature (°C)");
+            conf.addyAxis(tempYAxis);
+
+            conf.setTitle("Extreme Temperature Range in Finland");
+
+            // Create the range series
+            // Source: http://ilmatieteenlaitos.fi/lampotilaennatyksia
+            RangeSeries series = new RangeSeries("Temperature Extremes",
+                new Double[]{-51.5,10.9},
+                new Double[]{-49.0,11.8},
+                new Double[]{-47.0,10.8});
+            conf.addSeries(series);
+
+            return chart;
+    }
+}
+
